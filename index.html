@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | E-commerce product page</title>
+  <!-- css external link -->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- cdn font awsom -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+<body>
+<nav id="navbar">  
+
+<div class="logo"> 
+<div id="menu-btn" class="fas fa-bars"></div>
+<a><img class="logo-name" src="/images/logo.svg" alt="logo"></a>
+<div class="navigation-links">
+  <a href="#">collections</a>
+  <a href="#">man</a>  
+  <a href="#">women</a>  
+  <a href="#">about</a>  
+  <a href="#">contact</a>    
+  </div>
+</div>
+<div class="profile-cart">
+  <div class="shopping-cart-img" style="width: 100%; height: 100%;"><p class="cart-num-ad">0</p>
+<img src="/images/icon-cart.svg" alt="shopping-cart" class="onclick-btn" style="width: 20PX; height: 20PX;"></div>
+<img class="profile-image" src="/images/image-avatar.png" alt="profile-image">
+<div class="modal"><div style="margin-top:20px; height: 40px; width: 100%;  border-bottom: 1px solid white; z-index: 10001;">
+<p style="font-size: 1.2rem; font-weight: bold; color: white; padding: 0 10px; margin-top: 10px;">Cart</p></div>
+<div class="cart-product">
+<img src="/images/image-product-1-thumbnail.jpg" alt="" class="cart-product-img">
+<p>Fall Limited Edition Sneakers<br>$125.00 x 3 <b style="font-weight:bold">$375.00</b></p>
+</div>
+</div>
+</div>
+</nav>
+
+<!-- navbar end -->
+<section id="hero" class="hero">
+  <div class="product-images">
+    <div class="main-image popup">
+      <img src="/images/image-product-1.jpg" alt="image-product-1">
+    </div>
+    <div class="thumbnails-images popup">
+      <img src="/images/image-product-1-thumbnail.jpg" alt="">
+      <img src="/images/image-product-2-thumbnail.jpg" alt="">
+      <img src="/images/image-product-3-thumbnail.jpg" alt="">
+      <img src="/images/image-product-4-thumbnail.jpg" alt="">
+    </div>
+  </div>
+  <div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+  </div>
+  <div class="product-content">
+    <p class="tag-line">Sneaker Company</p>
+    <h1>Fall Limited Edition<br>Sneakers</h1>
+    <p class="discription">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+    <div class="price">
+      <p>$1254.00</p>
+      <p>50%</p>
+      <p>$250.00</p>
+    </div>
+    <div class="add-product">
+      <div class="plus">
+        <img class="sign-minus m"  src="images/icon-minus.svg" alt="icon-minus">
+        <p class="num m">0</p>
+        <img class="sign-plus m" src="images/icon-plus.svg" alt="icon-plus">  
+      </div>
+      <button class="btn-add-to-cart"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+    </div>
+  </div>
+</section>
+  <!-- Collections
+  Men
+  Women
+  About
+  Contact
+
+  Sneaker Company
+
+  Fall Limited Edition Sneakers
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="/script/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</body>
+</html>
